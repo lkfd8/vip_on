@@ -27,7 +27,6 @@ class BotDefinition:
 
 
 
-
 class Bot(BaseBot):
     cooldowns = {}  # Class-level variable to store cooldown timestamps
 
