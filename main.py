@@ -4,8 +4,8 @@ import time
 
 bot_file_name = "vip"
 bot_class_name = "Bot"
-room_id = "654b2ec6c001073820d9bbef"
-bot_token = ""
+room_id = "659cdef101602e72c92bbd5a"
+bot_token = "afdfb1dc94158e41bc3b1c1103691b0332c6bccd460fc60813776866248c94d6"
 
 
 my_bot = BotDefinition(getattr(import_module(bot_file_name), bot_class_name)(), room_id, bot_token)
