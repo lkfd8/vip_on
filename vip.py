@@ -462,7 +462,7 @@ class Bot(BaseBot):
     async def on_user_move(self, user: User, pos: Position) -> None:
         try:
 
-            if user.username == "RONY.28":
+            if user.username == "FIRE_ON_PC":
                 print(pos)
 
         except Exception as e:
